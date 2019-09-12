@@ -29,12 +29,12 @@ html, body{
       text-align: center;
       box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
       position: fixed;
-      bottom: 40px;
-      left: calc(50% - 100px);
+      bottom: 30px;
+      left: calc(25% - 100px);
 }
 
 #camera--flipper{
-      width: 200px;
+      width: 100px;
       background-color: black;
       color: white;
       font-size: 16px;
@@ -44,8 +44,8 @@ html, body{
       text-align: center;
       box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
       position: fixed;
-      bottom: 5px;
-      left: calc(50% - 100px);
+      bottom: 30px;
+      left: calc(75% - 100px);
 }
 
 .taken{
