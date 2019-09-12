@@ -14,7 +14,6 @@ let shouldFaceUser = true; //Default is the front cam
 function cameraStart() {
     var constraints = { video: { facingMode: shouldFaceUser ? 'user' : 'environment' }, audio: false };
   
-    console.log(facingMode);
     navigator.mediaDevices
         .getUserMedia(constraints)
             .then(function(stream) {
