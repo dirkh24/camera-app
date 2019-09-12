@@ -9,10 +9,11 @@ if( supports['facingMode'] === true ) {
   cameraFlipper.disabled = false;
 }
 
-let shouldFaceUser = false; //Default is the front cam
-var constraints = { video: { facingMode: shouldFaceUser ? 'user' : 'environment' }, audio: false };
+let shouldFaceUser = true; //Default is the front cam
 
 function cameraStart() {
+    var constraints = { video: { facingMode: shouldFaceUser ? 'user' : 'environment' }, audio: false };
+  
     console.log(facingMode);
     navigator.mediaDevices
         .getUserMedia(constraints)
